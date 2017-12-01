@@ -1,14 +1,11 @@
 language: c
-
 compiler:
-  - gcc
-
+- gcc
 before_script:
-  - mkdir build
-  - cd build
-  - cmake ..
-  - make
-
+- mkdir build
+- cd build
+- cmake ..
+- make
 script: make
 deploy:
   provider: releases
@@ -17,3 +14,5 @@ deploy:
   skip_cleanup: true
   on:
     tags: true
+dd:
+  secure: XDtP6OuP7x73cwQZH5FYfxTHd/OrkU+MqDZDCMdGkrKWrx7+S1JxPZWpBOYMwIDprx4oXngkW2BMCXqR1Nu8s3QaoUk1ohif5+jRnn5sFStILb50u8LRVynIAnr17dlfTtOGSREEh7dXn1Nd73NLzG0+uJEEgA4Z0OudzvKV2QLEz9iE0vGAY17W3UcKDF9mJE1EMsuVhuZJWZwpztXv5p7X5u/t+uc36ZM6vXXpzQ34MvR1bfafrX4McsYLQoFWZIygsVisQPn8C4x6b79zayMf7WTZsVWkIoueKVB3+nHtbLhqULS9eik6ixIAYZTY+0Er7pXma0rGQ9P38ZOE5mrJvH9RFKMdObiKve33XGAECaGBNsZwLXgiVKh0IhuIQ7SUpGOoy3wCquKSPU3R/HC12JTYv50faoNzN+9XKgc7zRohJ3Ng5HAJT0gcbluG2B5tYGgTmdlrv9BKBvNFKOiGpUILlJ6fIXtaAIjJVhgvEFGktOlHZ1JRfgh41XC4xkJ3WFm8+9+Ey3Eyt3ATWkdJK0oUni/iFQxIA1LHn7uYlSTDwl5RdQp+t1usKrlCuWhE3XJTD/z2xyUu7mP7oOvVSZm4m5bqqN68T9arGrE6nJZUB/U5390SUhbFv5/EbR+CRNIm+RtkFrSik0Q2r3Wg3vwL+lPxbOEiDwesGUM=
