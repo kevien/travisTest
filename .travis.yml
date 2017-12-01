@@ -12,7 +12,8 @@ before_script:
 script: make
 deploy:
   provider: releases
-  api_key: 76e0830734ad457558862ca0da9ceca5230c9c59
+  api_key: 
+    secure: 76e0830734ad457558862ca0da9ceca5230c9c59
   file: main
   skip_cleanup: true
   on:
