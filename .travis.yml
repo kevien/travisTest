@@ -9,9 +9,8 @@ before_script:
 script: make
 deploy:
   provider: releases
-  api_key: 
-    secure: 76e0830734ad457558862ca0da9ceca5230c9c59
+  api_key:
+    secure: JRc6ur9Hs9OdxbHnCZh9/dUE+TYqSrk/CzUFoTGeHzCQ2wPrV0ZsoMfe8uj9R7oYDD8QSdiJ4flZlhBQcQ04KspNw+qT7Sz1sdR6FLTKfhc6ISyMvHCFV7I7ETuUry6mXnOrpZWEraXCGnz8Wg7ZpOH+5eBr1SkrRplzdMAfwIq9v5vbZRrJobRsbc7Wz/Qsf3jObUBcKh2vRSP9dgtgaisDxGc5uOeVRaM3jGgabRfxBvf/ovGX9D7aC17djsEFGX5eNGl8V8MfvnIk+R2pRKxVPsdxQa/+rr/gS+kwgD9QXXTEWk3zk7O1/3TipA/rLxUuLWxQZ4688r1nOhuxd8dXM6P7xsDoxapt/p87gHndR2U/mw7ohjLb37DeXqX4n+nTkbi74LVqdr4W+yGuo24WQ2wvjTsxhWCmUPwsLVsiTv1Qkt7ZdNLvDPsdH1EXMsJ+Ay+/g97AhomhZQ+TXcxrKQjEQPhnLn+4IcG0tTaxRdExilo6M2Xh2m36GUisDJ6s0lzrrBIUlNaLTUAPlP4htWzvqxbsdd9AQmuRFmg3tRokuRxCatpfuBGUB7WirJ/tdEWS4UYLyezzZkzAYtV9upz2jh0npiLKPvRXN5c7ROlNjf6JPa/DUQ8GzcSICm7TiCtVQNEo6aWlqRvacnto4hjKZhxMoBnqPGdn+DY=
   file: main
-  skip_cleanup: true
   on:
-    tags: false
+    repo: kevien/travisTest
