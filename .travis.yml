@@ -12,6 +12,6 @@ deploy:
   skip_cleanup: true
   api_key:
     secure: fQ74qwsy5KVB/AOzkz/XhVQ2gaCsvX4ZA2Kj8ulNeJ46lLocgcGjuytLy+RukjxcXsa5bldaNBFwpJBrnaX1SMJu7sC+LiFOB95p/2VX6YRcO1eBqwDGUFZ9gMdXXEQEKu3lP090W8kGLyz6NI36UT4F9+fw6unUH0WmdCSpyUG5ADe2b6Q6owXeZ+hnsheqQT/XKNlD+g7aX1AWCYc9+iXppIoHDn5U6jTZHJQuWjv1oBN1Gy0VfUI8ZZJpjjrr/JdN8MR6g6GpdCvNY91+ZNYJx0iHPa9gopxXBICqrvfgwAbkFWleeY6L/1eOWSOvdj8kVShxjepnvgfQL9cts8AQN+Coq74po0nyvjL/d0kORjqF/R531ege/fDakxyH+b8RHoVtzpdSSQl8GsXSDSH7xVOGmOkPzeA8PihOUOlH+7Jq762LjbokJISDbe1dGiqeCedPeBxB274v4Yz/4HKMmDSU8CbkdEFiH9a4bLRnUJjS+iRUqBXIkY07tJpGNtoVy2unYBAY3IEo7KfCkzq3eF3WanXCy+AgaGQvfhqev1GvGUlB8XnhWiUsavblLItC8bW+uAjjdSgE13BFJJ6Mk6WaRhtUqsHj2qdxoEtsQWLR4ZfUJ0s7qPIYXNmbOk4oPn81gIFcI+VGxz8ksdoyXnMtCWunjqTcO4JBZXw=
-  file: /home/travis/build/kevien/travisTest/build
+  file: /home/travis/build/kevien/travisTest/build/src/sample
   on:
     repo: kevien/travisTest
