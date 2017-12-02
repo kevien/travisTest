@@ -1,0 +1,5 @@
+/Users/m0rk/GitHub/travisTest/bulid/CMakeFiles/rebuild_cache.dir
+/Users/m0rk/GitHub/travisTest/bulid/CMakeFiles/edit_cache.dir
+/Users/m0rk/GitHub/travisTest/bulid/src/CMakeFiles/rebuild_cache.dir
+/Users/m0rk/GitHub/travisTest/bulid/src/CMakeFiles/edit_cache.dir
+/Users/m0rk/GitHub/travisTest/bulid/src/CMakeFiles/sample.dir
